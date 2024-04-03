@@ -1,5 +1,5 @@
 Package: nyctibius
-Title: Nyctibius Streamlining Sociodemographic Data Harmonizing
+Title: Nyctibius pakage for Sociodemographic Data Harmonizing
 Version: 0.0.1
 Authors@R: c(
     person(given = "Diego", family = "Irreño", , email = "dirreno@unal.edu.co", role = c("aut", "cre")),
@@ -12,11 +12,9 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports:
   reticulate
-Remotes:
-  reticulate::install_miniconda()
-  reticulate::py_install("nyctibius")
 Suggests: 
     spelling,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Language: en-US
+InstallScript: R/post_install.R

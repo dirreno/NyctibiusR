@@ -50,3 +50,6 @@ rsconnect/
 
 # macOS hidden files
 .DS_Store
+
+#Nyctibius data folder
+data/
